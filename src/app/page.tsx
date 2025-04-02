@@ -39,7 +39,7 @@ export default function Home() {
           <Card className="max-w-5xl w-full shadow-xl rounded-2xl p-6 text-center bg-white">
               <div className="flex flex-col items-center">
                   <Image
-                      src="/images/profile.png"
+                      src="/icons/profile.png" 
                       alt="Perfil"
                       width={150}
                       height={150}
