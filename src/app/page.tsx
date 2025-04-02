@@ -32,14 +32,14 @@ const tolls = [
   {name: "gitHub", icon: "/icons/github.png"},
   {name: "VsCode", icon: "/icons/vsCode.png"},
   ]
-  
+
 export default function Home() {
   return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
           <Card className="max-w-5xl w-full shadow-xl rounded-2xl p-6 text-center bg-white">
               <div className="flex flex-col items-center">
                   <Image
-                      src="/images/profile.jpeg"
+                      src="/images/profile.png"
                       alt="Perfil"
                       width={150}
                       height={150}
